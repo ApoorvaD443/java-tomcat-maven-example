@@ -15,8 +15,8 @@ spec:
         app: java-tomcat-app
     spec:
       containers:
-        - name: java-tomcat-container
-          image: apoorvad4/java-tomcat-app:latest   
+        - name: java-tomcat-app
+          image: apoorvad4/tomcat_maven:latest   
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
